@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.etonwickvillagehall.co.uk/_app/1516288797/en/resources/requirements.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Jan 2020 10:16:47 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<title>Requirements</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript" src="big.js"></script>
+<style type="text/css">
+body{color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#bcbcbc;
+	margin:0;
+	padding:0;
+}
+h1, h3{color:#000}
+h1{font-size:140%;
+	margin-top:0
+}
+h3{font-size:110%;
+   margin-bottom:0.5em
+}
+p{margin-top:0}
+ol{margin-top:0}
+th{text-align:left}
+.container{border:#818181 solid 1px;
+	background-color:#fff;
+	width:620px;
+	margin:2em auto;
+	padding:40px;
+}
+#req-pass {
+	display: block;
+	padding: 0 60px;
+	color: #666;
+	text-decoration: none;
+	vertical-align: middle;
+}
+#req-pass p {
+	margin: 0 0 0.9em 0
+}
+p .positive {
+color: #59a112 ;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Site Requirements</h1>
+  <p>To best experience this website you will need a web browser with JavaScript
+    enabled and the Adobe Flash player, version 8 (or greater) installed.</p>
+  <table id="detection">
+    <thead>
+      <tr>
+        <th colspan="2">We have been able to detect the following:</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>JavaScript enabled:</td>
+      <td><div id="scriptCheck">
+          <script type="text/javascript">
+
+          var scriptPassed = false;
+						if(document.getElementById){
+							var e = document.getElementById("scriptCheck");
+							e.innerHTML = '<img src="/_app/1516288797/images/icon_yes.gif" width="23" height="21" alt="yes"/>';
+							scriptPassed = true;
+						}
+
+					</script>
+          <noscript>
+          <img src="../../images/icon_no.gif" width="23" height="21" alt="no"/>
+          </noscript>
+        </div></td>
+		<td rowspan="3" valign="top" id="checkPassed">
+			<script type="text/javascript">
+
+			passedLink = function(script, flash) {
+				if( document.getElementById && script && flash ){
+					var e = document.getElementById('checkPassed');
+					e.innerHTML = '<div id="req-pass"><p><span class="positive">Requirements passed</span>, click the back button to return to the site.</p><p><a href="/" onclick="location.history.back(); return false;" title="Back to site homepage">Back to site<a/></p></div>';
+				}
+			};
+
+			</script>
+
+		</td>
+    </tr>
+    <tr>
+      <td>Flash player version 8+ installed:</td>
+      <td><div id="flashCheck">
+          <script type="text/javascript">
+
+		  				var flashPassed = false;
+						if(document.getElementById){
+							var v = deconcept.SWFObjectUtil.getPlayerVersion();
+							var e = document.getElementById("flashCheck");
+							var iH = '<img src="/_app/1516288797/images/icon_no.gif" width="23" height="21" align="absmiddle" alt="Flash player 8+ not detected"/>';
+							if(v.major > 0){
+								iH += " You only have Flash player version " + v.major + "." + v.minor + "." + v.rev + " installed.";
+							}
+							e.innerHTML = iH;
+							var s = new SWFObject("../../images/tick.swf","tick","23","21","8","#ffffff");
+							flashPassed = true;
+							s.write("flashCheck");
+						}
+						passedLink(scriptPassed, flashPassed);
+
+			</script>
+          <noscript>
+          <img src="../../images/icon_unknown.gif" alt="" width="23" height="21" align="middle"/> Unable
+          to check: JavaScript not enabled!
+          </noscript>
+        </div></td>
+    </tr>
+  </table>
+  <p><em>If you see two green ticks above and you are still seeing a text only version of this site please <a href="cacheclear.html" title="Instruction on how to clear your browsers cache">clear your web browsers cache</a> and refresh the sites homepage.</em></p>
+
+
+  <h3>What is flash?</h3>
+  <p>Flash is a plug-in (a small bit of software) which allows you to interact
+    with animations, games and other multimedia content. For further information
+    on Flash and the Flash Player you can visit the
+	<a href="http://www.adobe.com/products/flashplayer/faq/">Flash Player Support FAQs</a>
+    on the Adobe website..</p>
+  <p>Flash is available on over 97% of all web browsers and is currently used
+    by several of the Internet's biggest sites, including Google, YouTube and
+    MySpace.</p>
+  <h3>How to install Flash?</h3>
+  <p>You can download the latest version of the Adobe Flash player directly from the
+  <a href="http://www.adobe.com/go/getflashplayer">Adobe website</a>.</p>
+  <p>If you are having problems with your Flash player, it isn't installing correctly
+    or you wish to re-install your Player please visit the Adobe
+   <a href="http://www.adobe.com/support/flashplayer/">Flash Player Support FAQs</a>
+   which can help you troubleshoot most problems. This provides
+    advice for users with either Windows or Macintosh systems.</p>
+  <h3>What is JavaScript?</h3>
+  <p>JavaScript is a commonly used Internet programming language which enables
+    many websites to provide additional features eg positioning and displaying
+    of certain objects, providing drop down menus, Flash Player detection and
+    validating form fields.</p>
+  <p>JavaScript is commonly used by the many of the biggest sites on the Internet,
+    including Amazon, eBay and Google.</p>
+  <h3>How do I enable JavaScript?</h3>
+  <p><strong>Internet Explorer</strong> - if you are using <strong>IE 5 (or later)</strong>,
+    then please:</p>
+  <ol>
+    <li>go to the 'Tools' menu and select 'Internet Options'</li>
+    <li>go to the 'Security' tab on the panel and ensure 'Internet' is selected</li>
+    <li>click 'Custom Level'</li>
+    <li>on the 'Security Settings' panel scroll down and locate the 'Scripting'
+      section</li>
+    <li>find 'Active Scripting' and click 'Enable'</li>
+    <li>click 'OK' to save your 'Security Settings'</li>
+    <li>click 'OK' to exit the 'Internet Options' panel</li>
+    <li>and then 'Refresh' your web browser (or use 'F5')</li>
+  </ol>
+  <p><strong>Firefox</strong> - for users of Mozilla's Firefox, please:</p>
+  <ol>
+    <li>go to the 'Tools' menu</li>
+    <li>select 'Options'</li>
+    <li>go to the 'Content' tab</li>
+    <li>make sure that the 'Enable JavaScript' box is checked</li>
+    <li>click 'OK'</li>
+    <li>and 'Reload' your web browser (or use 'Ctrl + R')</li>
+  </ol>
+  <p><strong>Safari</strong> - for Mac users with the latest version of <strong>Safari
+      (2.x)</strong>:</p>
+  <ol>
+    <li>select 'Preferences' from the 'Safari' menu</li>
+    <li>click 'Security'</li>
+    <li>ensure that both the 'Enable Java' and 'Enable JavaScript' boxes are
+      checked</li>
+    <li>close the panel</li>
+    <li>finally, 'Reload' your web browser</li>
+  </ol>
+  <p><strong>AOL</strong> - users of <strong>AOL 7.0</strong> or <strong>8.0</strong> should:</p>
+  <ol>
+    <li>from the 'My AOL' menu, click 'Preferences'</li>
+    <li>click 'WWW'</li>
+    <li>select the 'Security' tab from the 'AOL Internet Properties' panel</li>
+    <li>click 'Custom'</li>
+    <li>on the 'Security Settings' panel scroll down and locate the 'Scripting'
+      section</li>
+    <li>find 'Active Scripting' and click 'Enable'</li>
+    <li>click 'OK' to save your 'Security Settings'</li>
+    <li>click 'OK' to exit the 'Internet Properties' panel</li>
+    <li>and then 'Reload' your web browser</li>
+  </ol>
+  <p><strong>AOL</strong> - users of <strong>AOL 9.0</strong> should:</p>
+  <ol>
+    <li>from the 'AOL toolbar', click 'Settings'</li>
+    <li>select the 'Essentials' tab and then click 'Internet [Web] Options'</li>
+    <li>go to the 'Security' tab on the panel and ensure 'Internet' is selected</li>
+    <li>click 'Custom Level'</li>
+    <li>on the 'Security Settings' panel scroll down and locate the 'Scripting'
+      section</li>
+    <li>find 'Active Scripting' and click 'Enable'</li>
+    <li>click 'OK' to save your 'Security Settings'</li>
+    <li>click 'OK' to exit the 'Internet Options' panel</li>
+    <li>close the 'Settings' window</li>
+    <li>and then 'Reload' your web browser</li>
+  </ol>
+  <p><strong>Opera</strong> users with the versions <strong>6.xx</strong> and <strong>7.xx</strong> should:</p>
+  <ol>
+    <li>select 'Preferences' from the 'File' menu</li>
+    <li>click 'Multimedia'</li>
+    <li>ensure the 'Enable JavaScript' box is checked</li>
+    <li>click 'OK'</li>
+    <li>click 'Reload'</li>
+  </ol>
+  <p><strong>Netscape</strong> - users of <strong>Netscape 7</strong> should:</p>
+  <ol>
+    <li>select 'Preferences' from the 'Edit' menu</li>
+    <li>click 'Advanced' in the 'Category' list</li>
+    <li>select 'Scripts &amp; Plugins' from the menu</li>
+    <li>check the 'Navigator' box under the 'Enable JavaScript for' section</li>
+    <li>click 'OK'</li>
+    <li>click 'Reload'</li>
+  </ol>
+</div>
+</body>
+
+<!-- Mirrored from www.etonwickvillagehall.co.uk/_app/1516288797/en/resources/requirements.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Jan 2020 10:16:49 GMT -->
+</html>
